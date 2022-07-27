@@ -6,4 +6,4 @@ npm install\
 npm start
 
 check those 3 dirs\
-"/singup" "/singin" "/product"
+"/signup" "/signin" "/product"
