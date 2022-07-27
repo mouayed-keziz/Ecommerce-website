@@ -3,7 +3,7 @@
 simple react app\
 git clone\
 npm install\
-npm start\
+npm start
 
 check those 3 dirs\
-"/singup" "singin" "product"\
+"/singup" "/singin" "/product"
