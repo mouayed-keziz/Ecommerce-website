@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
+import "./css/bootstrap.css";
 import "./css/style.css";
 import "./css/responsive.css";
 import "./css/ui.css";

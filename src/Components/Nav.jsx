@@ -11,12 +11,12 @@ export default function Nav() {
       <div className="header-main border-bottom">
         <div className="container">
           <div className="d-flex flex-nowrap align-items-center">
-            <div className="col-lg-2 col-sm-3 col-3 ">
-              <a href="/" className="brand-wrap">
+            <div className="col-lg-2 col-sm-3 col-3 unzoomMobile">
+              <a href="#" className="brand-wrap">
                 <img className="logo" height="20" src="/logo192.png" />
               </a>
             </div>
-            <div className="col-lg-6 col-sm-6 col-6">
+            <div className="col-lg-6 col-sm-6 col-6 unzoomMobile">
               <form action="#" className="me-3">
                 <div className="input-group w-100">
                   <input
@@ -34,7 +34,7 @@ export default function Nav() {
             <div className="col-lg-4 col-sm-3 col-3">
               <div className="float-md-end">
                 <div className="widget-header">
-                  <a className="icontext" href="/">
+                  <a className="icontext" href="#">
                     <div className="icon">
                       <FontAwesomeIcon icon={faShoppingCart} />
                     </div>
@@ -46,7 +46,7 @@ export default function Nav() {
                 </div>
                 <div className="widget-header dropdown">
                   <a
-                    href="/"
+                    href="#"
                     className="dropdown-toggle ms-3 icontext"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -84,12 +84,12 @@ export default function Nav() {
                       <hr className="dropdown-divider" />
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/">
-                        Nouveau sur ROC-DZ ? S'inscrire
+                      <a className="dropdown-item" href="/signin">
+                        Vous avez un compte ? Se connecter
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/">
+                      <a className="dropdown-item" href="#">
                         Mot de passe oublié ?
                       </a>
                     </li>
@@ -115,67 +115,67 @@ export default function Nav() {
           <div className="collapse navbar-collapse" id="navbar_main6">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link ps-0" href="/">
+                <a className="nav-link ps-0" href="#">
                   {" "}
                   Ordinateurs{" "}
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="#">
                   Accesoires
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="#">
                   Ecrans
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="#">
                   Téléphones
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="#">
                   Nous contacter
                 </a>
               </li>
               <li className="nav-item dropdown">
                 <a
                   className="dropdown-toggle nav-link"
-                  href="/"
+                  href="#"
                   data-bs-toggle="dropdown"
                 >
                   Categories
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <a className="dropdown-item" href="#">
                       Laptops
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <a className="dropdown-item" href="#">
                       Acer
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <a className="dropdown-item" href="#">
                       HP
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <a className="dropdown-item" href="#">
                       Samsung
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <a className="dropdown-item" href="#">
                       Asus
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <a className="dropdown-item" href="#">
                       Microsoft
                     </a>
                   </li>
@@ -183,12 +183,12 @@ export default function Nav() {
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <a className="dropdown-item" href="#">
                       Categorie
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <a className="dropdown-item" href="#">
                       Autre cathegorie
                     </a>
                   </li>

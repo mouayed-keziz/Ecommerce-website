@@ -15,6 +15,7 @@ code {
 @media (max-width: 990px) {
   .mobileinvisible {
     display: none;
+    background-color: black;
   }
   .unzoomMobile {
     zoom: 0.8;

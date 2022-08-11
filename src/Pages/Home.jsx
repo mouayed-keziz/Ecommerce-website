@@ -16,9 +16,11 @@ export default function Home() {
   return (
     <div>
       <HeaderSection />
-      <NewProductsSection />
-      <WhyChoseUsSection />
-      <Map />
+      <section className="padding-y bg-light">
+        <NewProductsSection />
+        <WhyChoseUsSection />
+        <Map />
+      </section>
     </div>
   );
 }
